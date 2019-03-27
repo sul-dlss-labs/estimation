@@ -30,7 +30,6 @@ plugins:
   - jekyll-feed
 include:
   - README.md
-  - pull_request_template.md
 relative_links:
   enabled: true
   collections: true

@@ -1,3 +1,4 @@
 - [WER-0000](0000-work-estimation-record.md) - Lightweight work estimation record.
+- [WER-0001](0001-cloud-resource-deployment.md) - Deploying lambdas and containers in AWS.
 
 Requests for work estimation should be written up as new pull requests, based on the [estimation template](template.md). Please name new WER files with the `nnnn-brief-summary-of-work.md` format, and be sure to add a link to the new WER to the README.

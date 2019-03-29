@@ -2,12 +2,12 @@
 
 ## Description
 
-* **WHAT**: A workflow by which a developer can deploy, to the staging or production environment, lambdas or containers
+* **WHAT**: A workflow by which a developer can deploy, to the Amazon Web Services (AWS) staging or production environment, lambdas or containers
 * **WHO**: Aaron Collier and Justin Littman
 * **WHEN**: March 28th, 2019
 * **WHY**:
   * To make this a parallel workflow to how we interact with on premises resources (i.e. capistrano)
-  * To reduce the possibility that staging and production code can be accidentally deployed or rolled back.
+  * To reduce the possibility that an unexpected version of code is deployed to staging or production
 
 ## Scope Assumptions / Constraints
 
@@ -22,7 +22,7 @@
 
 ## Risks / Challenges
 
-* Existing approach for deploying infrastructure (terraform) cannot be used in conjunction with the proposed approach for deploying code. For example, will terraform require a lambda resource when creating an API gateway?
+* Existing approach for deploying infrastructure (terraform) cannot be used in conjunction with the proposed approach for deploying code. For example, with the proposed approach, it is not clear if terraform will require a lambda resource when creating an API gateway?
 
 ## Open Questions
 
@@ -34,15 +34,15 @@
 * Aaron Collier
 * Justin Littman
 
-## Time Spent
+## Time Spent Preparing Estimate
 
 Thirty minutes
 
 ## Confidence Level
 
-75% in estimate
+75% confidence this estimate is correct
 
 ## Estimate Range
 
-* 1 week at 75% time for 2 devs
+* 1 week for 2 devs
 * 2 weeks or more with a smaller commitment. (Note: Just acknowledging that we are currently working on multiple higher priority projects concurrently.)

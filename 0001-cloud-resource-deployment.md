@@ -7,7 +7,7 @@
 * **WHEN**: March 28th, 2019
 * **WHY**:
   * To make this a parallel workflow to how we interact with on premises resources (i.e. capistrano)
-  * Yo reduce the possibility that staging and production code can be accidentally deployed or rolled back.
+  * To reduce the possibility that staging and production code can be accidentally deployed or rolled back.
 
 ## Scope Assumptions / Constraints
 

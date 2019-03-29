@@ -2,10 +2,12 @@
 
 ## Description
 
-* **WHAT**: a brief narrative describing the work for which an estimation was requested
-* **WHO**: the requester's name
+* **WHAT**: a short title clearly expressing the work for which an estimation was requested
+* **WHO**: the work requester's name
 * **WHEN**: the date the estimation was requested
 * **WHY**: the rationale for how the estimate will be used/valued
+
+Add enough information here to contextualize any information stated below, or a link to a document with more info, etc.
 
 ## Scope Assumptions / Constraints
 
@@ -28,9 +30,9 @@ Examples of external dependencies could include:
 
 ## Open Questions
 
-A list of questions that were not answered, or answerable, by the team producing the estimate. Answers to these questions could significantly alter the estimate.
+A list of questions that were not answered, or answerable, by the team producing the estimate. Answers to these questions could significantly alter the estimate - indicate that when possible.  (e.g. "will this be on AWS?  If so, we will need to figure out a way to XYZ and that could add significantly to the estimate")
 
-## Contributors (Team)
+## Estimation Contributors
 
 Estimates are of higher quality when multiple parties participate. List here the people who contributed to the estimation:
 
@@ -41,7 +43,7 @@ Estimates are of higher quality when multiple parties participate. List here the
 
 The team that would likely do the work should ideally be the same people providing the estimate, but we acknowledge that this is not always the case so it is not assumed here that the contributors above are the people who would be doing the work being estimated.
 
-## Time Spent
+## Time Spent Producing Estimate
 
 Characterize the time spent producing the estimate. This is factored into the confidence level.
 
@@ -53,14 +55,16 @@ Express as a percentage, or range of percentages, the estimating team's overall 
 
 This is the amount of time estimated for the above team to tackle the work as described. The estimate should be expressed as a range between two orders of magnitude, chosen from the below values, for a given number of team members at a given allocation (with the understanding that 100% of a DLSS engineer's time is roughly 75% of their "contact time," due to competing priorities and time spent in meetings):
 
-* An hour
-* A day
-* A week
-* A month
-* Three months
-* Six months
-* Nine months
-* A year
-* More than a year
+* 1 hour
+* 1 day
+* 1 week
+* 1 month
+* 3 months
+* 6 months
+* 9 months
+* 1 year
+* >1 year
 
-Example: Between three months and nine months for a team of four engineers working at 75% contact time.
+Examples:
+* Between 1 hour and 1 week for 100% contact time of 2 engineers.
+* 3-9 months for a team of 4 engineers, each devoting 75% of his/her/their contact time.

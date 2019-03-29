@@ -15,6 +15,11 @@ Document scoping assumptions made and constraints given while producing the esti
 
 Write up potential risks, challenges, or external dependencies that could significantly affect the produced estimate.
 
+Examples of risk could include:
+
+* Novel technologies
+* APIs outside of our control
+
 Examples of external dependencies could include:
 
 * Stakeholders outside of your team, within DLSS, SUL, or Stanford University;

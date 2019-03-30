@@ -1,6 +1,7 @@
 # Records
 
 - [WER-0000](0000-work-estimation-record.md) - Lightweight work estimation record.
+- [WER-0001](0001-cloud-resource-deployment.md) - Deploying lambdas and containers in AWS.
 
 # Process
 

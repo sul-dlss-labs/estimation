@@ -63,7 +63,7 @@ This is the amount of time estimated for the above team to tackle the work as de
 * 6 months
 * 9 months
 * 1 year
-* >1 year
+* \> 1 year
 
 Examples:
 * Between 1 hour and 1 week for 100% contact time of 2 engineers.

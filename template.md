@@ -63,8 +63,12 @@ This is the amount of time estimated for the above team to tackle the work as de
 * 6 months
 * 9 months
 * 1 year
-* >1 year
+* \> 1 year
 
 Examples:
 * Between 1 hour and 1 week for 100% contact time of 2 engineers.
 * 3-9 months for a team of 4 engineers, each devoting 75% of his/her/their contact time.
+
+## Results _(conditional on work being undertaken, added afterwards)_
+
+If the project was pursued in some form, use this section to give a brief description of how things went, and where they deviated from the estimate. Indicate how long the work actually took, who the contributors were if they differed from the contributors to the estimate, and a sentence or two about how scope differed from the scope assumptions in the doc. Then just link to the repo(s) for the project, which should provide lots more detail via commit and issue histories.

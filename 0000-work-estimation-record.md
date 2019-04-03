@@ -39,3 +39,13 @@ Ten minutes
 ## Estimate Range
 
 An hour to a day
+
+## Results
+
+The template will likely evolve over time, but its initial drafting took under a day (about an hour for Mike Giarlo to draft it initially, a 30ish minute meeting to intro the idea and refine it among six of the infra devs, a couple small touchup PRs, about 35 minutes to draft this PR).
+
+The template is here: https://github.com/sul-dlss-labs/estimation/blob/master/template.md
+
+Scope has expanded slightly, with the addition of this section. We hope it will provide a helpful way to spot trends in our analyses.
+
+Actual contributors (including via discussion) so far are: https://github.com/aaron-collier, https://github.com/jcoyne, https://github.com/jermnelson, https://github.com/jmartin-sul, https://github.com/justinlittman, https://github.com/mjgiarlo, https://github.com/ndushay

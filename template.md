@@ -14,6 +14,18 @@ Add enough information here to contextualize any information stated below, or a 
 
 Document scoping assumptions made and constraints given while producing the estimate. Surface these explicitly to ensure all parties have a shared understanding or what is included within, or without, the scope of the work.
 
+### Assumptions
+
+### Out of Scope
+
+## Work To Do
+
+Describe the work in more detail, broken down into chunks of work that help with determining estimate.
+
+### Stretch Goals
+
+(optional) Describe any closely related work that is not MVP but would be useful.  May be related to some 'Out of Scope' work above.
+
 ## Risks / Challenges / External Dependencies
 
 Write up potential risks, challenges, or external dependencies that could significantly affect the produced estimate.

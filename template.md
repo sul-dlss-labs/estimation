@@ -24,10 +24,11 @@ Assumptions in order to proceed with an approach to the work. Examples:
 - developers already know technologies (specify, e.g. javascript, React, Rails, terraform, whatever)
 
 ### Out of Scope
-Closely related work that this estimate does NOT include.  It may or may not be helpful to have "stretch" goals. Examples:
+Closely related work that this estimate does NOT include.  It may or may not be helpful to have "stretch" goals with optional associated estimates. Examples:
+
 - rebuilding the whole index from scratch (as opposed to incremental updates)
 - automating a task (plan is to do it manually at first)
-- providing a nice-to-have that is closely related (e.g. easy way for user to get list of all members in a group)
+- providing a nice-to-have that is closely related (e.g. easy way for user to get list of all members in a group; indexing another field; ...)
 
 ## Work To Do
 
@@ -35,10 +36,6 @@ Describe the work in more detail, broken down into chunks of work that help with
 - time to learn any new technologies (at least to the MVP level), e.g. terraform, new language, docker, rails ...
 - time to configure laptops if non-trivial (e.g. aws credentials and so on)
 - each step of the work to be done
-
-### Stretch Goals
-
-(optional) Describe any closely related work that is not MVP but would be useful.  May be related to some 'Out of Scope' work above.
 
 ## Risks / Challenges / External Dependencies
 

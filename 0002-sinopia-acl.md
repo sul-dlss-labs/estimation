@@ -15,8 +15,10 @@ Stanford's part of the LD4P grant includes providing
 
 We call the above "Sinopia".  
 
-The Sinopia server utilizes trellis-ldp, which uses Web Access Control (https://www.w3.org/wiki/WebAccessControl)
-to grant users permissions to edit profiles/templates or metadata.  AWS Cognito is used for user authentication and authorization.
+The Sinopia server utilizes [trellis-ldp](https://github.com/trellis-ldp/), which uses [Web Access Control](https://www.w3.org/wiki/WebAccessControl)
+to grant users permissions to edit profiles/templates or metadata.  AWS Cognito is used for
+[user authentication](https://github.com/trellis-ldp/trellis/wiki/Authentication#jwt-authentication) (and
+[authorization](https://github.com/trellis-ldp/trellis/wiki/Authorization) is performed by trellis based on the user's derived WebID).
 
 A git repo already exists with some of the code to create "Web Access Control" forms of "Access Control Lists", or ACLs: https://github.com/LD4P/sinopia_acl
 

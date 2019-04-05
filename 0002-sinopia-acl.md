@@ -119,7 +119,7 @@ Team expected to do the work:
 
 ## Time Spent Producing Estimate
 
-35 minutes for the 3 of us talking;  45 min for Naomi writing up this WER.
+35 minutes for the 3 of us talking;  45 min for Naomi writing up this WER;  10 min of editing from John.
 
 ## Confidence Level
 

@@ -67,6 +67,10 @@ __Work To Do__
 5. Read .csv file of usernames and groups and execute 3. for each row
     - call 3. to get webids
     - for each row, translate username to webid and call 4.
+6. Wipe out all ACLs
+    - get a list of all groups from /repository
+    - delete the ACL on each group, as well as on / and /repository
+      - That should be all, as there should only be one level of groups, and ACLs should only be applied to groups, /repository, and /
 
 ---
 

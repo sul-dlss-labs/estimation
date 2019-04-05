@@ -120,7 +120,7 @@ Team expected to do the work:
 
 ## Estimate Range
 
-between 1 day and 1 month  (likely 1-2 weeks) with Naomi and Mike spending 100% of their contact time (roughly 50-75% of their total time)
+1-3 weeks (between 1 day and 1 month) with Naomi and Mike spending 100% of their contact time (roughly 50-75% of their total time)
 
 ## Results _(conditional on work being undertaken, added afterwards)_
 

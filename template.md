@@ -8,7 +8,7 @@
 * Estimate requested: **(date)**
 * Reason: **the rationale for how the estimate will be used/valued**
 
-Add enough information here to contextualize any information stated below, or a link to a document with more info, etc.
+Add enough information here to contextualize any details given below, and/or links to an ADR, a document with more info, etc.
 
 ## Scope Assumptions / Constraints
 
@@ -16,11 +16,25 @@ Document scoping assumptions made and constraints given while producing the esti
 
 ### Assumptions
 
+Assumptions in order to proceed with an approach to the work. Examples:
+- if you're going to be using AWS, management will approve the $$.
+- you can put information X in a config file (assume it is not considered sensitive and it won't change often)
+- new technology X works in a certain way (that you don't have time to confirm, but the documentation is unclear)
+- VM provisioning (call out that it is not included in the estimate)
+- developers already know technologies (specify, e.g. javascript, React, Rails, terraform, whatever)
+
 ### Out of Scope
+Closely related work that this estimate does NOT include.  It may or may not be helpful to have "stretch" goals. Examples:
+- rebuilding the whole index from scratch (as opposed to incremental updates)
+- automating a task (plan is to do it manually at first)
+- providing a nice-to-have that is closely related (e.g. easy way for user to get list of all members in a group)
 
 ## Work To Do
 
-Describe the work in more detail, broken down into chunks of work that help with determining estimate.
+Describe the work in more detail, broken down into chunks of work that help with determining estimate.  Remember to include things like:
+- time to learn any new technologies (at least to the MVP level), e.g. terraform, new language, docker, rails ...
+- time to configure laptops if non-trivial (e.g. aws credentials and so on)
+- each step of the work to be done
 
 ### Stretch Goals
 

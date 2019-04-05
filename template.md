@@ -2,10 +2,11 @@
 
 ## Description
 
-* **WHAT**: a short title clearly expressing the work for which an estimation was requested
-* **WHO**: the work requester's name
-* **WHEN**: the date the estimation was requested
-* **WHY**: the rationale for how the estimate will be used/valued
+### EDITME: a short title clearly expressing the work for which an estimation was requested
+
+* Requested By: **the work requester's name**
+* Estimate requested: **(date)**
+* Reason: **the rationale for how the estimate will be used/valued**
 
 Add enough information here to contextualize any information stated below, or a link to a document with more info, etc.
 

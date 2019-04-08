@@ -15,8 +15,10 @@ Stanford's part of the LD4P grant includes providing
 
 We call the above "Sinopia".  
 
-The Sinopia server utilizes trellis-ldp, which uses Web Access Control (https://www.w3.org/wiki/WebAccessControl)
-to grant users permissions to edit profiles/templates or metadata.  AWS Cognito is used for user authentication and authorization.
+The Sinopia server utilizes [trellis-ldp](https://github.com/trellis-ldp/), which uses [Web Access Control](https://www.w3.org/wiki/WebAccessControl)
+to grant users permissions to edit profiles/templates or metadata.  AWS Cognito is used for
+[user authentication](https://github.com/trellis-ldp/trellis/wiki/Authentication#jwt-authentication) (and
+[authorization](https://github.com/trellis-ldp/trellis/wiki/Authorization) is performed by trellis based on the user's derived WebID).
 
 A git repo already exists with some of the code to create "Web Access Control" forms of "Access Control Lists", or ACLs: https://github.com/LD4P/sinopia_acl
 
@@ -32,13 +34,14 @@ __Assumptions__:
     - if a user is in more than one group, they will have a row for each group
   - Michelle and Jeremy verbally agreed 2019-04-04 that .csv file is fine.
 - the users with control access for any and all Sinopia groups will be Michelle plus the team of developers
-  - this will allow us to keep the .csv simpler and will also allow an easier "default" WebAccessControl resource for a new group
+  - 'control' access is the Web Access Control categorization which grants what we consider admin privileges
+  - Admin users is a small number and Cognito userids can be in a config file
+    - this will allow us to keep the .csv simpler and will also allow an easier "default" WebAccessControl resource for a new group
   - Jeremy verbally agreed 2019-04-04
 - Trellis does NOT determine missing control permissions block from a parent LDP container;  if there is a WebAccessControl resource for a container, it must be complete.
   - Mike verified this behavior empirically 2019-04-04
 - We believe WebAccessControl "append" is implied when "write" access is given.
 - Initial numbers of users:  100-150. Unknown eventual number of users, but same order of magnitude
-- Admin users is a small number and Cognito userids can be in a config file
 - It is relatively easy for developers (Naomi and Mike) to get private AWS credentials and the AWS CLI tool onto their laptops
 
 ---
@@ -64,6 +67,10 @@ __Work To Do__
 5. Read .csv file of usernames and groups and execute 3. for each row
     - call 3. to get webids
     - for each row, translate username to webid and call 4.
+6. Wipe out all ACLs
+    - get a list of all groups from /repository
+    - delete the ACL on each group, as well as on / and /repository
+      - That should be all, as there should only be one level of groups, and ACLs should only be applied to groups, /repository, and /
 
 ---
 
@@ -112,7 +119,7 @@ Team expected to do the work:
 
 ## Time Spent Producing Estimate
 
-35 minutes for the 3 of us talking;  45 min for Naomi writing up this WER.
+35 minutes for the 3 of us talking;  45 min for Naomi writing up this WER;  10 min of editing from John.
 
 ## Confidence Level
 

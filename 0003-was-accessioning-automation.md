@@ -2,19 +2,19 @@
 
 ## Description
 
-### Automate the web archiving accessioning workflow.
+### Automate the web archiving accessioning workflow
 
 * Requested By: Vivian Wong and Nicholas Taylor
 * Estimate requested: 2019-04-04
 * Reason: Current web archiving accessinging workflow is entirely manual.
 
-In order to allow for more efficient accessioning of web archives, the current manual process of: 
+In order to allow for more efficient accessioning of web archives, the current manual process of:
+
 * [Manually reviewing ARGO collections for last crawl status](https://consul.stanford.edu/display/WARC/Assessing+Previous+Crawl+Accessioning+Progress)
 * Downloading necessary data into organized paths for was-registrar
 * Triggering was-registrar
 
 needs to be automated through replacement of the existing was-registrar system.
-
 
 ## Scope Assumptions / Constraints
 
@@ -29,7 +29,6 @@ This does not involve changing the web archiving preassembly workflow.
 * Lack of staff aware of current web archving functionality
 * Lack of staff with ability to test web archiving functionality
 * Reliance on WASAPI
-
 
 ## Open Questions
 

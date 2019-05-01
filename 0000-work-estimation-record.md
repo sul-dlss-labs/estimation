@@ -15,6 +15,20 @@ Scope includes a novel work estimation record template, and the work required to
 * GitHub pages will be used to host WERs
 * Markdown will be used as the file format for WERs
 
+### Major tasks
+
+For example:
+
+* Provision new stage/prod webservers
+* Provision workers (if using sidekiq/resque, maybe redis too?)
+* Provision database
+* Backups
+* Create deployment tools (capistrano) and deploy new service
+* Add Honeybadger monitoring of new service
+* Add Okcomputer/Nagios monitoring
+* Manual integration testing
+* etc
+
 ## Risks / Threats
 
 None identified

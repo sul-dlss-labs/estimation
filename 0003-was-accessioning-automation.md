@@ -28,7 +28,7 @@ This does not involve changing the web archiving preassembly workflow.
 
 * Lack of staff aware of current web archving functionality
 * Lack of staff with ability to test web archiving functionality
-* Reliance on WASAPI
+* Reliance on WASAPI: as we don't control this external API, changes to the API output and/or availability will introduce unplanned maintenance cycles to the application.
 
 ## Open Questions
 

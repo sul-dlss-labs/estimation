@@ -14,6 +14,20 @@ Add enough information here to contextualize any information stated below, or a 
 
 Document scoping assumptions made and constraints given while producing the estimate. Surface these explicitly to ensure all parties have a shared understanding or what is included within, or without, the scope of the work.
 
+### Major tasks
+
+For example:
+
+* Provision new stage/prod webservers
+* Provision workers (if using sidekiq/resque, maybe redis too?)
+* Provision database
+* Backups
+* Create deployment tools (capistrano) and deploy new service
+* Add Honeybadger monitoring of new service
+* Add Okcomputer/Nagios monitoring
+* Manual integration testing
+* etc
+
 ## Risks / Challenges / External Dependencies
 
 Write up potential risks, challenges, or external dependencies that could significantly affect the produced estimate.

@@ -45,7 +45,7 @@ Should was-registrar be re-written? As currently used, can registration of seeds
 
 ## Confidence Level
 
-80% - There are very few unkown components (i.e. new 3rd party APIs). We will be using and updating existing technologies.
+80% - There are very few unknown components (i.e. new 3rd party APIs). We will be using and updating existing technologies.
 
 ## Estimate Range
 

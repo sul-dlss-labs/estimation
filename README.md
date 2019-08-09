@@ -4,6 +4,7 @@
 - [WER-0001](0001-cloud-resource-deployment.md) - Deploying lambdas and containers in AWS.
 - [WER-0002](0002-sinopia-acl.md) - Grant permissions to AWS Cognito Sinopia users for their correct groups
 - [WER-0003](0003-was-accessioning-automation.md) - Automate the currently manual process of accessioning web archives.
+- [WER-0004](0004-agro-virtual-merge.md) - Make Virtual-Merge an async bulk action in Argo.
 
 ## Process
 

@@ -62,10 +62,10 @@ __Work To Do__:
     - field for parent druid ?
     - easy way to get list of child druids (e.g. a spreadsheet from the stakeholder listing the druid of the virtual composite object in the first column and the child objects in sequence in the following columns)
 - what do we do with the output?
-  - how provide feedback back to user?  (modsulator - creates separate log file;  send email? ?? what else is done?)
-  - if immediately fails
-  - if individual child objects fail
-  - if everything ran successfully
+  - Bulk Actions provides a way to give the user feedback:
+    - success/failure counts in the job list
+    - an overall completion status
+    - more detailed feedback (a downloadable log file)
 
 - don't create duplicate is_constituent_of relationships if one already exists
 

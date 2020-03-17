@@ -14,7 +14,10 @@ Currrently the ETD system is a bit of an outlier as it writes temporary data (re
 
 ## Scope Assumptions / Constraints
 
-Assumption: Only minimal UI changes will be made. We will endeavor to keep the existing depositor/approver APIs unchanged.
+Assumptions:
+
+* Only minimal UI changes will be made. We will endeavor to keep the existing depositor/approver GUI unchanged.
+* No migration of existing data will need to be made.  We will cut over to an RDBMS in between submission periods.
 
 ### Major tasks
 
@@ -28,7 +31,7 @@ Assumption: Only minimal UI changes will be made. We will endeavor to keep the e
   * <https://github.com/sul-dlss/hydra_etd/issues/348>
 * Update deployment tools (capistrano) for managing sidekiq
 * Move data stored in properties, workflow, and readers datastreams to an RDBMS
-* Create a dashboard for the service manager for visualizing objects in the database.
+* Create a dashboard in the ETD application that gives the service manager the ability to inspect objects in the database (similar to looking at datastreams in Argo).
 * Switch to the SDR deposit API, (currently using files in NFS mount + accssionWF)
 * Manual integration testing
 * etc
@@ -36,6 +39,8 @@ Assumption: Only minimal UI changes will be made. We will endeavor to keep the e
 ## Risks / Challenges / External Dependencies
 
 Write up potential risks, challenges, or external dependencies that could significantly affect the produced estimate.
+
+* ETD App is not widely understood by development team and this estimate is primarily based on the expertise of a single engineer.
 
 External dependencies could include:
 
@@ -69,7 +74,7 @@ Express as a percentage, or range of percentages, the estimating team's overall 
 
 This is the amount of time estimated for the above team to tackle the work as described. The estimate should be expressed as a range between two orders of magnitude, chosen from the below values, for a given number of team members at a given allocation (with the understanding that 100% of a DLSS engineer's time is roughly 75% of their "contact time," due to competing priorities and time spent in meetings):
 
-* 6 weeks for 100% contact time of 2 engineers
+* 4-8 weeks for 75% time for 2-3 engineers
 
 ## Results
 

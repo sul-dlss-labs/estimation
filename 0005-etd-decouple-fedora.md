@@ -53,7 +53,6 @@ External dependencies could include:
 
 The ETD product owner needs to confirm that access to the "properties" and "readers" data in the ETD app will meet his/her needs if it is removed from Argo. In other words -- what is checked in Argo when an object is initially submitted to ETD app, but is not yet in accessioning.
 
-
 ## Estimation Contributors
 
 Estimates are of higher quality when multiple parties participate. List here the people who contributed to the estimation:

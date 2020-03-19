@@ -1,5 +1,7 @@
 # Records
 
+[![CircleCI](https://circleci.com/gh/sul-dlss-labs/estimation.svg?style=svg)](https://circleci.com/gh/sul-dlss-labs/estimation)
+
 - [WER-0000](0000-work-estimation-record.md) - Lightweight work estimation record.
 - [WER-0001](0001-cloud-resource-deployment.md) - Deploying lambdas and containers in AWS.
 - [WER-0002](0002-sinopia-acl.md) - Grant permissions to AWS Cognito Sinopia users for their correct groups

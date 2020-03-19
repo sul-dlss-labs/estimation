@@ -31,6 +31,7 @@ Assumptions:
 * Move other-metadata & start-accession from common-accessioning robots to a background job (sidekiq)
   * <https://github.com/sul-dlss/hydra_etd/issues/348>
 * Update deployment tools (capistrano) for managing sidekiq
+* Rewrite <https://github.com/sul-dlss/etd-reporter/blob/master/ETD-make-reports.sh> so that it can be supported by the infrastructure group. This currently has no tests and is tightly coupled to Fedora 3. Additionally, it should be runnable by the service manager (currently this is run by Tony Z)
 * Move data stored in properties, workflow, and readers datastreams to an RDBMS
 * Create a dashboard in the ETD application that gives the service manager the ability to inspect objects in the database. This will provide a capability to the service manager similar to looking at the properties and reader datastreams with Argo. These datastreams are currently persisted in Fedora.
 * Switch to the SDR deposit API, (currently using files in NFS mount + accssionWF). See <https://github.com/sul-dlss/sdr-api/issues/135#issuecomment-599008166> and `@jcoyne`'s response.
@@ -75,7 +76,7 @@ Express as a percentage, or range of percentages, the estimating team's overall 
 
 This is the amount of time estimated for the above team to tackle the work as described. The estimate should be expressed as a range between two orders of magnitude, chosen from the below values, for a given number of team members at a given allocation (with the understanding that 100% of a DLSS engineer's time is roughly 75% of their "contact time," due to competing priorities and time spent in meetings):
 
-* 4-8 weeks for 75% time for 2-3 engineers
+* 5-10 weeks for 75% time for 2-3 engineers
 
 ## Results
 

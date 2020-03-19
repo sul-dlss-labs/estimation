@@ -31,7 +31,7 @@ Assumptions:
 * Move other-metadata & start-accession from common-accessioning robots to a background job (sidekiq)
   * <https://github.com/sul-dlss/hydra_etd/issues/348>
 * Update deployment tools (capistrano) for managing sidekiq
-* Rewrite https://github.com/sul-dlss/etd-reporter/blob/master/ETD-make-reports.sh so that it can be supported by the infrastructure group. This currenlty has no tests and is tightly coupled to Fedora 3.
+* Rewrite <https://github.com/sul-dlss/etd-reporter/blob/master/ETD-make-reports.sh> so that it can be supported by the infrastructure group. This currenlty has no tests and is tightly coupled to Fedora 3. Additionally, it should be runnable by the service manager (currently this is run by Tony Z)
 * Move data stored in properties, workflow, and readers datastreams to an RDBMS
 * Create a dashboard in the ETD application that gives the service manager the ability to inspect objects in the database. This will provide a capability to the service manager similar to looking at the properties and reader datastreams with Argo. These datastreams are currently persisted in Fedora.
 * Switch to the SDR deposit API, (currently using files in NFS mount + accssionWF). See <https://github.com/sul-dlss/sdr-api/issues/135#issuecomment-599008166> and `@jcoyne`'s response.

@@ -8,6 +8,7 @@
 - [WER-0003](0003-was-accessioning-automation.md) - Automate the currently manual process of accessioning web archives.
 - [WER-0004](0004-argo-virtual-merge.md) - Make Virtual-Merge an async bulk action in Argo.
 - [WER-0005](0005-etd-decouple-fedora.md) - Decouple ETDs from Fedora 3.
+- [WER-0006](0006-pywb.md) - Replace OpenWayback with PyWB for SWAP.
 
 ## Process
 

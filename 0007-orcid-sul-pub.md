@@ -22,7 +22,7 @@ We also considering other related items, such as using ORCIDs in harvesting from
 
 (all team members should have access to these):
 
-* [Google doc](https://docs.google.com/document/d/1BYezfFlkoAaKzdiTMUBdHE6zTmdKnzVFqslblW0uuO8) created by DLSS describing implications for SUL DLSS
+* [Google doc](https://docs.google.com/document/d/1tueeBy4_Z54ougTAnPKPhKtdTUC9ZsRBLHLJXT9texI) created by DLSS describing implications for SUL DLSS
 * [Google diagram](https://docs.google.com/presentation/d/163ONdgfQERgwmoEaO4ZqJWrHhVdVxaWwJiTq1aDkrgo) created by DLSS showing possible connections between systems:
 
 ## Scope Assumptions / Constraints

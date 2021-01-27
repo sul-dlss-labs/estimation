@@ -42,7 +42,7 @@ This estimation record and the associated google doc are only concerned with sul
 
 Risks:
 
-* Some APIs we need (e.g. fetch ORCID for stanford people, get auth tokens for ORCID API) don't exist yet and our out of our control
+* Some APIs we need (e.g. fetch ORCID for stanford people, get auth tokens for ORCID API) don't exist yet and are out of our control
 * Import/export mechanisms may be high SLA if users' become dependent on them, increasing our support costs
 * ORCID and other external API may evolve over time, requiring us to update our code
 * Due to large number of external dependencies, integration testing may be time consuming and may fall during other workcycles
@@ -75,7 +75,7 @@ The team that would likely do the work should ideally be the same people providi
 
 ## Time Spent Producing Estimate
 
-Peter has spent approximately 3 hours, and Justin about 1 hour as of Jan 26.  There are having two phone calls so far with developers on the Profiles team.
+Peter has spent approximately 3 hours, and Justin about 1 hour as of Jan 26.  They had two calls so far with developers on the Profiles team.
 
 ## Confidence Level
 

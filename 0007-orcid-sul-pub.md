@@ -8,7 +8,7 @@
 * Estimate requested: ~February 2021, some part of the work to be completed by August 2021
 * Reason: to be used for planning/scoping purposes and for communication to stakeholders about what may be possible by August 2021
 
-At a high level, the request is to integrate Profiles with ORCID, which from our perpsective means
+At a high level, the request is to integrate Profiles with ORCID, which from our perspective means
 exporting citations from sul-pub to ORCID (via their API), and importing citations from ORCID back to sul-pub,
 while not creating duplicates in either direction.
 
@@ -46,6 +46,7 @@ Risks:
 * Import/export mechanisms may be high SLA if users' become dependent on them, increasing our support costs
 * ORCID and other external API may evolve over time, requiring us to update our code
 * Due to large number of external dependencies, integration testing may be time consuming and may fall during other workcycles
+* Bibliographic metadata mapping between ORCID and Profiles/sul-pub will require both upfront work and on-going maintenance, which can be difficult in estimate and are probably significant.
 
 External dependencies:
 
@@ -86,6 +87,7 @@ Peter has spent approximately 3 hours, and Justin about 1 hour as of Jan 26.  Th
 This is the amount of time estimated for the above team to tackle the work as described. The estimate should be expressed as a range between two orders of magnitude, chosen from the below values, for a given number of team members at a given allocation (with the understanding that 100% of a DLSS engineer's time is roughly 75% of their "contact time," due to competing priorities and time spent in meetings):
 
 * 3-4 months, team of 2-3 engineers, each devoting 75% of his/her/their contact time.
+* potentially less with a full time, but work may not be sufficiently parallelizable
 
 ## Results
 
